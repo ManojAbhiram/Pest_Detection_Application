@@ -10,7 +10,7 @@ A full-stack web application that detects crop pests from uploaded images using 
 ### Frontend
 - React
 - Tailwind CSS
-- Axios (or Fetch API)
+- Fetch API
 
 ### Backend
 - Python
@@ -28,4 +28,17 @@ A full-stack web application that detects crop pests from uploaded images using 
 ```bash
 cd server
 ```
+
+2. Create a virtual environment and activate it:
+```bash
+python -m venv venv
+venv\Scripts\activate  # On Windows
+```
+
+3. Install required packages:
+```bash
+pip install flask tensorflow numpy opencv-python pillow
+```
+
+
 
