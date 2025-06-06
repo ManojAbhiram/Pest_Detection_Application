@@ -9,14 +9,10 @@ A full-stack web application that detects crop pests from uploaded images using 
 
 ### Frontend
 - React
-- Tailwind CSS
-- Fetch API
 
 ### Backend
 - Python
 - Flask
-- TensorFlow / Keras
-- NumPy, OpenCV, Pillow
 
 ---
 
