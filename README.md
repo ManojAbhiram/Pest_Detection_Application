@@ -40,5 +40,38 @@ venv\Scripts\activate  # On Windows
 pip install flask tensorflow numpy opencv-python pillow
 ```
 
+4. Run the Flask server:
+```bash
+python app.py
+```
+
+### 🌐 Frontend Setup
+1. Navigate to the client folder:
+```bash
+cd client
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the React app:
+```bash
+npm start
+```
+
+### 🧠 Model Info
+Model Path: server/finalmodel3.h5
+
+Model Type: Keras (HDF5 format)
+
+Training Data: Image dataset consisting of various pest categories located under the Pests/ directory.
+
+📦 Note: The trained model file (finalmodel3.h5) is not included in this GitHub repository due to file size limitations.
+
+🔗 Download the model manually from the link below and place it inside the server/ directory:
+
+📥 Download finalmodel3.h5
 
 
