@@ -62,16 +62,15 @@ npm start
 ```
 
 ### 🧠 Model Info
-Model Path: server/finalmodel3.h5
 
-Model Type: Keras (HDF5 format)
+- **Model Path**: `server/finalmodel3.h5`  
+- **Model Type**: Keras (HDF5 format)  
+- **Training Data**: Image dataset consisting of various pest categories located under the `Pests/` directory.
 
-Training Data: Image dataset consisting of various pest categories located under the Pests/ directory.
+📦 **Note:** The trained model file (`finalmodel3.h5`) is **not included in this GitHub repository** due to file size limitations.
 
-📦 Note: The trained model file (finalmodel3.h5) is not included in this GitHub repository due to file size limitations.
+🔗 **Download the model manually and place it inside the `server/` directory:**
 
-🔗 Download the model manually from the link below and place it inside the server/ directory:
-
-📥 Download finalmodel3.h5
+https://drive.google.com/file/d/1eZobQPU-lgm7_wLyAQQdlO6uQzU3xeSv/view?usp=sharing
 
 
