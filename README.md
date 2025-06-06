@@ -6,26 +6,4 @@ A full-stack web application that detects crop pests from uploaded images using 
 
 ## 🧩 Project Structure
 
-## 📂 Project Structure
-
-Pest_Detection_Application/
-├── client/                  # React frontend
-│   ├── public/              # Static files (HTML, icons, manifest)
-│   └── src/                 # Source code
-│       ├── components/      # Reusable UI components
-│       ├── images/          # Static image assets
-│       └── pages/           # Main page components (e.g., Home.jsx, Anomalies.jsx)
-│       ├── App.js
-│       ├── index.js
-│       └── tailwind.config.js
-├── server/                  # Python backend
-│   ├── app.py               # Main Flask app
-│   ├── Download.py          # Image download or processing logic
-│   ├── test.py              # Script to test the model
-│   ├── Validation.py        # Validation logic
-│   └── finalmodel3.h5       # Trained ML model (Keras)
-├── Pests/                   # Dataset folders
-│   ├── shoot borer/
-│   ├── Termites/
-│   ├── Thrips/
-│   └── Tussock Caterpillar/
+<pre> ```bash Pest_Detection_Application/ ├── client/ # React frontend │ ├── public/ # Static files (HTML, icons, manifest) │ └── src/ # Source code │ ├── components/ # Reusable UI components │ ├── images/ # Static image assets │ └── pages/ # Main page components (e.g., Home.jsx, Anomalies.jsx) │ ├── App.js │ ├── index.js │ └── tailwind.config.js ├── server/ # Python backend │ ├── app.py # Main Flask app │ ├── Download.py # Image download or processing logic │ ├── test.py # Script to test the model │ ├── Validation.py # Validation logic │ └── finalmodel3.h5 # Trained ML model (Keras) ├── Pests/ # Dataset folders │ ├── shoot borer/ │ ├── Termites/ │ ├── Thrips/ │ └── Tussock Caterpillar/ ``` </pre>
