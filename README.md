@@ -6,21 +6,26 @@ A full-stack web application that detects crop pests from uploaded images using 
 
 ## 🧩 Project Structure
 
+## 📂 Project Structure
+
 Pest_Detection_Application/
-├── client/ # React frontend
-│ ├── public/ # Static files
-│ └── src/ # Source code
-│ ├── components/ # UI components
-│ ├── images/ # Static images
-│ └── pages/ # Pages (e.g., Home.jsx, Anomalies.jsx)
-├── server/ # Python backend
-│ ├── app.py # Main Flask app
-│ ├── finalmodel3.h5 # Trained ML model (Keras)
-│ ├── Download.py # Image download
-│ ├── test.py # Model testing script
-│ └── Validation.py # Input validation or extra logic
-├── Pests/ # Dataset
-│ ├── shoot borer/
-│ ├── Termites/
-│ ├── Thrips/
-│ └── Tussock Caterpillar/
+├── client/                  # React frontend
+│   ├── public/              # Static files (HTML, icons, manifest)
+│   └── src/                 # Source code
+│       ├── components/      # Reusable UI components
+│       ├── images/          # Static image assets
+│       └── pages/           # Main page components (e.g., Home.jsx, Anomalies.jsx)
+│       ├── App.js
+│       ├── index.js
+│       └── tailwind.config.js
+├── server/                  # Python backend
+│   ├── app.py               # Main Flask app
+│   ├── Download.py          # Image download or processing logic
+│   ├── test.py              # Script to test the model
+│   ├── Validation.py        # Validation logic
+│   └── finalmodel3.h5       # Trained ML model (Keras)
+├── Pests/                   # Dataset folders
+│   ├── shoot borer/
+│   ├── Termites/
+│   ├── Thrips/
+│   └── Tussock Caterpillar/
