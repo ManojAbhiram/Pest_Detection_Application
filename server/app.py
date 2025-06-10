@@ -15,7 +15,7 @@ app = Flask(__name__)
 # Configure CORS to allow requests from 'http://localhost:3000'
 CORS(app, resources={r"/predict": {"origins": "http://localhost:3000"}})
 
-model = load_model(r'C:\Users\DELL\Documents\Projects\Pest_Detection_Final\Pest_Detection\server\finalmodel3.h5')
+model = load_model(finalmodel3.h5)
 
 @app.route('/predict', methods=['POST'])
 def predict():
