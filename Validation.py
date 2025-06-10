@@ -49,7 +49,7 @@ def objective(trial):
         fill_mode='nearest',
     )
 
-    data_dir = r'C:\Users\Manoj Abhiram\Desktop\Project IoT\New folder'
+    data_dir = r''
 
     batch_size = 16  # Reduced batch size
     train_generator = train_datagen.flow_from_directory(
